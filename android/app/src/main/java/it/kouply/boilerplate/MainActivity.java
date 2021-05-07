@@ -1,4 +1,4 @@
-package it.kouply.starter;
+package it.kouply.boilerplate;
 
 import io.flutter.embedding.android.FlutterActivity;
 
