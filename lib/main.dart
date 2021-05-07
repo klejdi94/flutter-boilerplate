@@ -2,9 +2,6 @@ import 'package:boilerplate/config/config.dart';
 import 'package:boilerplate/config/routing/routing.dart';
 import 'package:flutter/material.dart';
 
-import 'app/homepage/homepage.dart';
-import 'config/login/login_page.dart';
-
 void main() {
   runApp(MyApp());
 }

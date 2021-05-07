@@ -48,12 +48,11 @@ class NavDrawer extends StatelessWidget {
             leading: Icon(Icons.exit_to_app),
             title: Text(logoutTitle),
             onTap: () => {
-              _openPopup(context,logoutTitle,'ciao'),
-              Navigator.pushReplacement(context,
+
+            Navigator.pushAndRemoveUntil(context,
                 MaterialPageRoute(builder: (context) =>
-                  LoginPage()
-                ),
-            )
+                LoginPage())
+            , (route) => false)
             },
           ),
         ],

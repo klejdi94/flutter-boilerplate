@@ -4,6 +4,7 @@ import 'package:boilerplate/app/model/chuck_norris.dart';
 import 'package:boilerplate/app/services/chuck_norris_service.dart';
 import 'package:boilerplate/config/http/response.dart';
 
+
 class ChuckNorrisController{
   ChuckNorrisRepository _chuckRepository;
   StreamController _chuckDataController;

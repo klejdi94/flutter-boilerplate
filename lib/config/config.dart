@@ -1,6 +1,6 @@
 
 
-var appTitle = 'KoupLy';
+var appTitle = 'Flutter starter';
 
 var titleHome = 'Home page';
 
