@@ -1,2 +1,5 @@
-# flutter-boilerplate
-Biolerplate for flutter 
+# Flutter starter
+
+A Flutter easy starter for Android , IOS , Web
+
+
