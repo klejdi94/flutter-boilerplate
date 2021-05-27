@@ -3,4 +3,6 @@ var benvenutiTitle = 'Benvenuti';
 var profiloTitle = 'Profilo';
 var settingsTitle = 'Settings';
 var feedbackTitle = 'Feedback';
+var createFormTitle = 'Create Form';
 var logoutTitle = 'Logout';
+
