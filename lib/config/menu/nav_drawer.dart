@@ -1,3 +1,4 @@
+import 'package:boilerplate/app/form/form_page.dart';
 import 'package:boilerplate/config/login/login_page.dart';
 import 'package:boilerplate/shared/dialog/popup.dart';
 import 'package:boilerplate/shared/dialog/popup_service.dart';
@@ -43,6 +44,16 @@ class NavDrawer extends StatelessWidget {
             leading: Icon(Icons.border_color),
             title: Text(feedbackTitle),
             onTap: () => {_openPopup(context,feedbackTitle,'ciao')},
+          ),
+          ListTile(
+            leading: Icon(Icons.add_chart_rounded),
+            title: Text(createFormTitle),
+            onTap: () => {
+              Navigator.pushReplacement(context,
+                  MaterialPageRoute(builder: (context) =>
+                      FormPage())
+                 )
+            },
           ),
           ListTile(
             leading: Icon(Icons.exit_to_app),
